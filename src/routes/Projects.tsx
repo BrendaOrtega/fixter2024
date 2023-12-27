@@ -14,6 +14,11 @@ export default function Projects() {
   }, []);
   return (
     <main>
+      <meta
+        name="description"
+        content="echa un vistazo a nuestro portafolio."
+      />
+      <title>Proyectos | Fixter</title>
       <div
         // style={{ backdropFilter: "blur(8px)" }}
         className="flex justify-center fixed  w-full h-20 "
@@ -108,16 +113,9 @@ type CardProps = {
   description: string;
   image?: string;
   tag?: string;
-  cover?: string;
 };
 
-export const FullCard = ({
-  title,
-  description,
-  image,
-  tag,
-  cover,
-}: CardProps) => {
+export const FullCard = ({ title, description, image, tag }: CardProps) => {
   return (
     <div
       style={{ transition: "all .5s ease" }}
@@ -147,13 +145,7 @@ export const FullCard = ({
   );
 };
 
-export const SmallCard = ({
-  title,
-  description,
-  image,
-  tag,
-  cover,
-}: CardProps) => {
+export const SmallCard = ({ title, description, image, tag }: CardProps) => {
   return (
     <div
       style={{ transition: "all .5s ease" }}

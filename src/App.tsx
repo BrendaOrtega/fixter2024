@@ -6,6 +6,7 @@ import Contact from "./routes/Contact";
 import Projects from "./routes/Projects";
 import Clients from "./routes/Clients";
 import Cotizar from "./routes/Cotizar";
+import Politicas from "./routes/Politicas";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/contacto" element={<Contact />} />
       <Route path="/clientes" element={<Clients />} />
       <Route path="/cotizar" element={<Cotizar />} />
+      <Route path="/politicas" element={<Politicas />} />
     </Routes>
   );
 }

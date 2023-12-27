@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 import "../App.css";
-import SmartNavBar from "../common/SmartNavBar";
 
 export default function Footer() {
   return (
     <section className="bg-[#111112] pt-16 pb-40">
       <div className="max-w-7xl mx-auto w-[90%] md:w-full text-white flex-col md:flex-row flex justify-between">
         <div>
-          <h2 className="text-7xl	">Hablemos.</h2>
+          <h2 className="text-5xl md:text-7xl 	">Hablemos.</h2>
           <div className="group cursor-pointer w-[160px]">
             <p className="text-xl	mt-6">brenda@fixter.org</p>
             <div className="w-[160px] bg-[#56616a] h-[2px] rounded-full mt-1">
@@ -32,8 +31,10 @@ export default function Footer() {
       </div>
       <div className="max-w-7xl mx-auto w-[90%] md:w-full text-white flex-wrap-reverse md:flex-nowrap flex justify-between items-center text-base mt-20">
         <div className="flex gap-4 md:gap-6 items-center mt-10">
-          <p className="text-sm	text-[#858e97]">Aviso de Privacidad</p>
-          <p className="text-sm	text-[#858e97]">Términos</p>
+          <Link to="/politicas">
+            <p className="text-sm	text-[#858e97]">Aviso de Privacidad</p>
+          </Link>
+          {/* <p className="text-sm	text-[#858e97]">Términos</p> */}
           <p className="text-sm	text-[#858e97]">© 2016 – 2023 Fixter.org</p>
         </div>
         <div className="w-[300px] flex justify-start">

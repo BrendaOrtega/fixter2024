@@ -68,7 +68,7 @@ export default function Services() {
             <div className="w-[400px] grow flex justify-end md:mt-0 mt-10 ">
               <img
                 className="object-cover w-full  md:w-[80%] h-[600px] "
-                src="/design.svg"
+                src="/design.png"
               />
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function Services() {
             <div className="w-[400px] grow flex justify-start  md:mt-0 mt-10">
               <img
                 className="object-cover w-full md:w-[80%] h-[600px]"
-                src="/dev.svg"
+                src="/dev.png"
               />
             </div>
             <div className="w-[400px] grow pl-0 md:pl-[10%] ">
@@ -144,7 +144,7 @@ export default function Services() {
             <div className="w-[400px] grow flex justify-end md:mt-0 mt-10">
               <img
                 className="object-cover w-full md:w-[80%] h-[600px] "
-                src="/sitio.svg"
+                src="/sitio.png"
               />
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function Services() {
             <div className="w-[400px] grow flex justify-start md:mt-0 mt-10">
               <img
                 className="object-cover w-full md:w-[80%] h-[600px]"
-                src="/proyectos/mobilep.svg"
+                src="/mobile.png"
               />
             </div>
             <div className="w-[400px] grow pl-0 md:pl-[10%] ">
@@ -216,7 +216,7 @@ export default function Services() {
             <div className="w-[400px] grow flex justify-end md:mt-0 mt-10 ">
               <img
                 className="object-cover w-full  md:w-[80%] h-[600px] "
-                src="/capa.svg"
+                src="/capa.png"
               />
             </div>
           </div>

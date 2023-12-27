@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "../App.css";
 import SmartNavBar from "../common/SmartNavBar";
-import Footer from "../common/Footer";
 import { useEffect } from "react";
 
 export default function Contact() {
@@ -14,6 +13,8 @@ export default function Contact() {
   }, []);
   return (
     <main>
+      <meta name="description" content="Ponte en contacto con nosotros." />
+      <title>Contacto | Fixter</title>
       <div
         // style={{ backdropFilter: "blur(8px)" }}
         className="flex justify-center fixed  w-full h-20 "
@@ -23,7 +24,7 @@ export default function Contact() {
         </Link>
       </div>
       <SmartNavBar />
-      <section className="max-w-7xl w-[90%] md:w-full mx-auto flex justify-between py-[80px] flex-wrap md:flex-nowrap ">
+      <section className="max-w-7xl w-[90%] md:w-full min-h-[115vh] mx-auto flex justify-between py-[80px] flex-wrap md:flex-nowrap ">
         <div className="pt-20">
           <h2 className="text-5xl md:text-7xl	mb-10">Hablemos.</h2>
           <p className="font-light text-2xl w-full md:w-[60%]">

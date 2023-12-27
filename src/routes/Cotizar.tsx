@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import "../App.css";
-import Footer from "../common/Footer";
 import SmartNavBar from "../common/SmartNavBar";
 import { useEffect } from "react";
-import ButtonPrimary from "../common/ButtonPrimary";
 
 export default function Cotizar() {
   useEffect(() => {
@@ -15,6 +13,11 @@ export default function Cotizar() {
   }, []);
   return (
     <main>
+      <meta
+        name="description"
+        content="Cotiza tu aplicación de forma rápida."
+      />
+      <title>Cotizador | Fixter</title>
       <div className="flex justify-center fixed  w-full h-20 ">
         <Link to="/">
           <img className=" mt-4  " src="./logo.svg" />

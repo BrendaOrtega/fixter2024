@@ -1,12 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "../App.css";
 import ButtonPrimary from "../common/ButtonPrimary";
 import Footer from "../common/Footer";
 import SmartNavBar from "../common/SmartNavBar";
 import { Link } from "react-router-dom";
-const img = "https://i.imgur.com/FqzOvtT.png";
-const partner = "https://i.imgur.com/RYlBuay.png";
-const project = "https://i.imgur.com/27h5L65.png";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   // const [showPop, setShowPop] = useState(false);
@@ -35,7 +33,7 @@ export default function Home() {
       <SmartNavBar />
       <section
         style={{
-          backgroundImage: `url("/public/doodle.svg")`,
+          backgroundImage: `url("/doodle.svg")`,
           backgroundSize: "cover",
         }}
       >
@@ -102,7 +100,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-7xl w-[90%] md:w-full mx-auto py-32">
+      <section className="max-w-7xl w-[90%] md:w-full mx-auto py-16 md:py-32">
         <h2 className=" text-3xl lg:text-5xl	text-center">
           Concentrate en tus clientes y dejamos el resto
         </h2>
@@ -147,16 +145,13 @@ export default function Home() {
         </div>
       </section>
       <section className="overflow-hidden	flex gap-10 w-full my-16 md:my-10  items-center">
-        <marquee
-          loop="10"
-          className="text-3xl md:text-6xl h-[64px]  md:h-[100px]"
-        >
+        <Marquee className="text-3xl md:text-6xl h-[64px]  md:h-[100px]">
           ReactJs • Vite • Remix • MongoDB • TailwindCSS • Firebase • NextJs •
           Kubernetes • Go • Ruby • JavaScript • Prisma • Typescript • Nodejs •
           Redux • ReactJs • Vite • Remix • MongoDB • TailwindCSS • Firebase •
           NextJs • Kubernetes • Go • Ruby • JavaScript • Prisma • Typescript •
           Nodejs • Redux
-        </marquee>
+        </Marquee>
       </section>
       <section className="max-w-7xl mx-auto w-[90%] md:w-full text-center py-16 md:py-32	">
         <h2 className="text-3xl md:text-5xl	">
@@ -234,10 +229,10 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="max-w-7xl mx-auto w-[90%] md:w-full flex  md:flex-nowrap items-center flex-wrap-reverse gap-16 pt-[200px]">
+        <div className="max-w-7xl mx-auto w-[90%] md:w-full flex  md:flex-nowrap items-center flex-wrap-reverse gap-16 pt-[120px] md:pt-[200px]">
           <div className="w-full md:w-[50%] flex justify-center">
             <img
-              className="object-contain max-w-[90%] h-[540px]"
+              className="object-contain max-w-[90%] h-[450px] md:h-[540px]"
               src="/proyectos/mask2.png"
             />
           </div>
