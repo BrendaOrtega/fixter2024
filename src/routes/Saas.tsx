@@ -14,8 +14,6 @@ export default function Projects() {
   }, []);
   return (
     <main>
-      <meta name="description" content="Conoce nuestro software." />
-      <title>Saas | Fixter</title>
       <div
         // style={{ backdropFilter: "blur(8px)" }}
         className="flex justify-center fixed  w-full h-20 "

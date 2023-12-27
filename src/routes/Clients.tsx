@@ -23,7 +23,7 @@ export default function Clients() {
         </Link>
       </div>
       <SmartNavBar />
-      <section className="max-w-7xl w-[90%] md:w-full mx-auto py-[120px] ">
+      <section className="max-w-7xl w-[90%] md:w-full mx-auto py-[120px] overflow-hidden ">
         <section>
           <h2 className="text-5xl md:text-7xl mb-10">Clientes</h2>
           <p className="text-xl md:text-2xl w-[100%] md:w-[50%]">
@@ -31,7 +31,7 @@ export default function Clients() {
             estatales tanto en México como en el extranjero.
           </p>
         </section>
-        <section className="grid grid-col-1 md:grid-cols-3 py-20 md:py-[120px] gap-14 ">
+        <section className="md:grid  md:grid-cols-3 flex flex-wrap py-20 md:py-[120px] gap-14 ">
           <ClientsCard
             image="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/clientes%2Flogo%2011.png?alt=media&token=4a4f10d2-7a18-432e-b1c0-bc4406ed4cb4"
             title="Collectum Datos Panel"
@@ -137,14 +137,14 @@ type CardProps = {
 const ClientsCard = ({ title, description, image }: CardProps) => {
   return (
     <div className="flex items-center group gap-4">
-      <div className="w-[220px] md:w-[280px]  cursor-pointer overflow-hidden bg-[#F4F5FB] h-full flex justify-center items-center rounded-xl">
+      <div className="w-[200px] md:w-[280px]  cursor-pointer overflow-hidden bg-[#F4F5FB] h-full flex justify-center items-center rounded-xl">
         <img
           style={{ transition: "all .3s ease" }}
           className="object-contain max-w-[90%]  group-hover:scale-75		 "
           src={image ? image : "/logos/survey1.svg"}
         />
       </div>
-      <div>
+      <div className="flex flex-col">
         <h3 style={{ fontFamily: "" }} className="text-xl	">
           {title}
         </h3>

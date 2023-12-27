@@ -35,7 +35,7 @@ export default function Services() {
         </section>
         <section className="flex justify-between py-[120px] flex-wrap gap-52">
           <div className="flex w-full items-center flex-wrap md:flex-nowrap">
-            <div className="w-[400px] grow pr-[10%]">
+            <div className="w-[400px] grow pr-0 md:pr-[10%]">
               <h2 className="text-3xl md:text-5xl 	font-semibold mb-6">
                 Diseño de Producto
               </h2>
@@ -114,7 +114,7 @@ export default function Services() {
             </div>
           </div>
           <div className="flex w-full items-center flex-wrap md:flex-nowrap">
-            <div className="w-[400px] grow pr-[10%]">
+            <div className="w-[400px] grow pr-0 md:pr-[10%]">
               <h2 className="text-3xl md:text-5xl 	font-semibold mb-6">
                 Sitios web
               </h2>
@@ -186,7 +186,7 @@ export default function Services() {
             </div>
           </div>
           <div className="flex w-full items-center flex-wrap md:flex-nowrap">
-            <div className="w-[400px] grow pr-[10%]">
+            <div className="w-[400px] grow pr-0 md:pr-[10%]">
               <h2 className="text-5xl	font-semibold mb-6">Capacitación</h2>
               <p className="text-xl font-light	">
                 La enseñanza es algo que nos apasiona, así que de la mano de

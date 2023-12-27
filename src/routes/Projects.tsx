@@ -14,11 +14,6 @@ export default function Projects() {
   }, []);
   return (
     <main>
-      <meta
-        name="description"
-        content="echa un vistazo a nuestro portafolio."
-      />
-      <title>Proyectos | Fixter</title>
       <div
         // style={{ backdropFilter: "blur(8px)" }}
         className="flex justify-center fixed  w-full h-20 "

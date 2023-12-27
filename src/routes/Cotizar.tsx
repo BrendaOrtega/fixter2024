@@ -13,11 +13,6 @@ export default function Cotizar() {
   }, []);
   return (
     <main>
-      <meta
-        name="description"
-        content="Cotiza tu aplicación de forma rápida."
-      />
-      <title>Cotizador | Fixter</title>
       <div className="flex justify-center fixed  w-full h-20 ">
         <Link to="/">
           <img className=" mt-4  " src="./logo.svg" />

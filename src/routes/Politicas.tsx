@@ -12,8 +12,6 @@ export default function Politicas() {
   }, []);
   return (
     <main>
-      <meta name="description" content="Conoce a nuestros clientes." />
-      <title>Clientes | Fixter</title>
       <div
         // style={{ backdropFilter: "blur(8px)" }}
         className="flex justify-center fixed  w-full h-20 "
