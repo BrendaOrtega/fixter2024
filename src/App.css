@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Faktum";
+  src: url("/fonts/FaktumBold.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Satoshi Bold";
+  src: url("/fonts/Satoshi-Medium.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Faktum Regular";
+  src: url("/fonts/FaktumSemiBold.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Faktum";
+}
+.animation {
+  animation: scrolling 10s linear infinite;
+}
+p {
+  font-family: "Satoshi";
+}
+
+.imgExtend {
+  width: 80px;
+  height: 54px;
+  border-radius: 50px;
+  margin: 0 12px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: 0.3s cubic-bezier(0.2, 1, 0.2, 1);
+  object-fit: cover;
+}
+
+.imgExtend:hover {
+  width: 140px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 650px) {
+  .imgExtend {
+    width: 60px;
+    height: 32px;
+  }
+  .imgExtend:hover {
+    width: 90px;
+  }
+}
