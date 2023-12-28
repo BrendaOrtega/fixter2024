@@ -16,7 +16,7 @@ export default {
       backgroundImage: {
         mobile: "url('/back-mobile.png')",
         web: "url('/back.png')",
-        general: "url(./back2.svg)",
+        general: "url(/back2.svg)",
       },
     },
   },
