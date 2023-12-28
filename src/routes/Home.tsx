@@ -163,16 +163,16 @@ export default function Home() {
             image="/proyectos/proyecto2.png"
             link="https://www.formmy.app/"
           />
+          <ProyectCard name="Constructoken" image="/proyectos/proyecto1.png" />
           <ProyectCard
-            name="Constructoken"
-            image="/proyectos/proyecto1.png"
-            link="https://constructoken.com/"
+            link="https://autonomo-7e183.web.app/"
+            name="Arango"
+            image="/proyectos/proyecto3.png"
           />
-          <ProyectCard name="Arango" image="/proyectos/proyecto3.png" />
           <ProyectCard
             name="Survey Up"
             image="/proyectos/proyecto4.png"
-            link="https://potentiia.com/"
+            link="https://b2b-survey-d48c1.web.app/"
           />
           <ProyectCard
             name="Potentiia"
@@ -182,7 +182,6 @@ export default function Home() {
           <ProyectCard
             name="Laboratorios Azteca"
             image="/proyectos/proyecto8.png"
-            link="https://potentiia.com/"
           />
         </div>
       </section>

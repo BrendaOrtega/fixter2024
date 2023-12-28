@@ -29,73 +29,71 @@ export default function Projects() {
             Hacemos realidad tus ideas.
           </h2>
           <p className="md:text-2xl text-xl">
-            Convirtiendolas en productos digitales que tus usuarios amen.
+            Convirtiéndolas en productos digitales que tus usuarios amen.
           </p>
         </section>
         <section className="flex justify-between py-20 md:py-[120px] flex-wrap missalign gap-10 md:gap-0">
           <SmallCard
             title="Potentiia"
-            description="Digital branding and website for an internet connectivity technology"
-            image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            description="Rediseño del sitio web de empresa líder en couching para el rendimiento deportivo."
+            image="/proyectos/potentiia.png"
             tag="Website · Web Design · Development · SEO"
           />
           <FullCard
             title="SurveyUp"
-            description="Digital branding and website for an internet connectivity technology"
-            image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            description="Aplicación web de fidelización y aplicación de encuestas para estudios de mercado."
+            image="/proyectos/p-survey.png"
             tag="WebApp · UX/UI · Development "
           />
           <div className="mt-0 md:-mt-[100px]">
             <SmallCard
               title="Laboratorios Azteca"
-              description="Digital branding and website for an internet connectivity technology"
-              image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              tag="WebApp · Ecommerce · UX/UI "
+              description="Diseño de tienda digital para estudios clínicos."
+              image="/proyectos/p-lab.png"
+              tag="WebApp · E-commerce · UX/UI "
             />
           </div>
           <FullCard
             title="Spike Stinger"
-            description="Digital branding and website for an internet connectivity technology"
-            image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            description="Sitio web de captación para la comercialización de productos especializados."
+            image="/proyectos/spike.png"
             tag="Website · UI · Development "
           />
 
           <div className="mt-0 md:-mt-[280px]">
             <FullCard
-              title="Constructoken"
-              description="Digital branding and website for an internet connectivity technology"
-              image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              tag="Mobile App · UX/UI"
+              title="Webdive"
+              description="Sitio web de empresa de servicios tecnológicos."
+              image="/proyectos/dive.png"
+              tag="WebApp · UX/UI · Development "
             />
+            {/* <FullCard
+              title="Constructoken"
+              description="Diseño de aplicación móvil para startup de construcción de vivienda."
+              image="/proyectos/constru.png"
+              tag="Mobile App · UX/UI"
+            /> */}
           </div>
           <div className="mt-0 md:mt-[120px]">
             <SmallCard
-              title="Fútbol"
-              description="Digital branding and website for an internet connectivity technology"
-              image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              tag="Mobile App · UX/UI"
+              title="Fixtergeek"
+              description="Diseño y desarrollo de plataforma educativa para la comercialización de cursos. "
+              image="/proyectos/geek.png"
+              tag="Mobile App · UX/UI · Development"
             />
           </div>
           <SmallCard
             title="Collectm Datos Panel"
-            description="Digital branding and website for an internet connectivity technology"
-            image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            description="Desarrollo de plataforma para la digitalización de estudios de mercado."
+            image="/proyectos/panel.png"
             tag="WebApp · UX/UI · Development "
           />
-          <FullCard
+          {/* <FullCard
             title="Webdive"
-            description="Digital branding and website for an internet connectivity technology"
-            image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            description="Sitio web de empresa de servicios tecnológicos."
+            image="/proyectos/dive.png"
             tag="WebApp · UX/UI · Development "
-          />
-          <div className="mt-0 md:mt-[-220px]">
-            <SmallCard
-              title="Zenda.la"
-              description="Digital branding and website for an internet connectivity technology"
-              image="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              tag="WebApp · UX/UI · Development "
-            />
-          </div>
+          /> */}
         </section>
       </section>
       <Footer />
@@ -116,7 +114,7 @@ export const FullCard = ({ title, description, image, tag }: CardProps) => {
       style={{ transition: "all .5s ease" }}
       className="w-full md:w-[540px] mt-0 md:mt-28 group cursor-pointer"
     >
-      <div className="h-[480px] md:h-[740px] w-full overflow-hidden">
+      <div className="h-[480px] md:h-[740px] w-full overflow-hidden border-[1px] border-[#ECEFF9]">
         <img
           style={{ transition: "all .5s ease" }}
           className="h-[480px] md:h-[740px] object-cover group-hover:scale-125"
@@ -146,10 +144,10 @@ export const SmallCard = ({ title, description, image, tag }: CardProps) => {
       style={{ transition: "all .5s ease" }}
       className="w-full md:w-[540px] group cursor-pointer "
     >
-      <div className="h-[480px] md:h-[540px] w-full overflow-hidden group">
+      <div className=" h-[480px] md:h-[540px] w-full overflow-hidden group border-[1px] border-[#ECEFF9]">
         <img
           style={{ transition: "all .5s ease" }}
-          className="h-[480px] md:h-[540px] object-cover group-hover:scale-125"
+          className="h-[480px] md:h-[540px] w-full object-cover group-hover:scale-125"
           src={image ? image : "https://i.imgur.com/cC0VWx1.png"}
         />
       </div>
