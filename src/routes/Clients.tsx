@@ -19,7 +19,7 @@ export default function Clients() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4  " src="./logo.svg" />
+          <img className=" mt-4  " src="./logo.svg" alt="logo fixterorg" />
         </Link>
       </div>
       <SmartNavBar />
@@ -161,6 +161,7 @@ const ClientsCard = ({ title, description, image, location }: CardProps) => {
           style={{ transition: "all .3s ease" }}
           className="object-contain max-w-[90%]  group-hover:scale-75		 "
           src={image ? image : "/logos/survey1.svg"}
+          alt="logo cliente"
         />
       </div>
       <div>

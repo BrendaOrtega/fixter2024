@@ -19,7 +19,7 @@ export default function Services() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4  " src="./logo.svg" />
+          <img className=" mt-4  " src="./logo.svg" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />
@@ -47,26 +47,28 @@ export default function Services() {
               <ul className="mt-10 text-xl font-light">
                 <li className="flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   User Research & Testing
                 </li>
                 <li className="mt-2 flex gap-2">
-                  <img src="./bullet.svg" /> CX, UX & Interaction Design
+                  <img src="./bullet.svg" alt="bullet" /> CX, UX & Interaction
+                  Design
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   UI Design
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Design Systems
                 </li>
               </ul>
             </div>
             <div className="w-[400px] grow flex justify-end md:mt-0 mt-10 ">
               <img
+                alt="product design example"
                 className="object-cover w-full  md:w-[80%] h-[600px] "
                 src="/design.png"
               />
@@ -75,6 +77,7 @@ export default function Services() {
           <div className="flex w-full items-center flex-wrap-reverse md:flex-nowrap">
             <div className="w-[400px] grow flex justify-start  md:mt-0 mt-10">
               <img
+                alt="development example"
                 className="object-cover w-full md:w-[80%] h-[600px]"
                 src="/dev.png"
               />
@@ -92,22 +95,22 @@ export default function Services() {
               <ul className="mt-10 text-xl font-light">
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Desarrollo de aplicaciones móviles
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Desarrollo web frontend y backend
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Integraciones API
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Conterización
                 </li>
               </ul>
@@ -126,23 +129,24 @@ export default function Services() {
               <ul className="mt-10 text-xl font-light">
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Diseño web
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Integraciones API para tracking
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Optimización SEO
                 </li>
               </ul>
             </div>
             <div className="w-[400px] grow flex justify-end md:mt-0 mt-10">
               <img
+                alt="website example"
                 className="object-cover w-full md:w-[80%] h-[600px] "
                 src="/sitio.png"
               />
@@ -153,6 +157,7 @@ export default function Services() {
               <img
                 className="object-cover w-full md:w-[80%] h-[600px]"
                 src="/mobile.png"
+                alt="mobile app example"
               />
             </div>
             <div className="w-[400px] grow pl-0 md:pl-[10%] ">
@@ -169,17 +174,17 @@ export default function Services() {
               <ul className="mt-10 text-xl font-light">
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Capacitación en línea
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Cursos presenciales personalizados
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Cursos pregrabados
                 </li>
               </ul>
@@ -198,17 +203,17 @@ export default function Services() {
               <ul className="mt-10 text-xl font-light">
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Capacitación en línea
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Cursos presenciales personalizados
                 </li>
                 <li className="mt-2 flex gap-2">
                   {" "}
-                  <img src="./bullet.svg" />
+                  <img src="./bullet.svg" alt="bullet" />
                   Cursos pregrabados
                 </li>
               </ul>
@@ -217,6 +222,7 @@ export default function Services() {
               <img
                 className="object-cover w-full  md:w-[80%] h-[600px] "
                 src="/capa.png"
+                alt="training example"
               />
             </div>
           </div>

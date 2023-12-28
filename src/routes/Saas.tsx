@@ -19,7 +19,7 @@ export default function Projects() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4  " src="./logo.svg" />
+          <img className=" mt-4  " src="./logo.svg" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />
@@ -67,11 +67,13 @@ export const VideoCard = ({
     >
       <div className="h-[540px] w-full overflow-hidden group">
         <img
+          alt="project example"
           style={{ transition: "all .5s ease" }}
           className="w-full h-full object-cover group-hover:scale-125 hidden md:block group-hover:hidden"
           src={cover ? cover : "https://i.imgur.com/cC0VWx1.png"}
         />{" "}
         <img
+          alt="project example"
           style={{ transition: "all .5s ease" }}
           className="w-full h-full object-cover block md:hidden group-hover:block"
           src={image ? image : "https://i.imgur.com/cC0VWx1.png"}

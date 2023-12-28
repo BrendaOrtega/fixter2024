@@ -15,13 +15,13 @@ export default function Cotizar() {
     <main>
       <div className="flex justify-center fixed  w-full h-20 ">
         <Link to="/">
-          <img className=" mt-4  " src="./logo.svg" />
+          <img className=" mt-4  " src="./logo.svg" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />
       <section className="max-w-7xl min-h-[100vh] w-[90%] md:w-full mx-auto flex justify-center text-center items-center ">
         <div>
-          <img className="w-[240px] mx-auto" src="/404.svg" />
+          <img className="w-[240px] mx-auto" src="/404.svg" alt="404" />
           <h2 className="text-3xl md:text-5xl mb-6">¿Cuánto cuesta tu app?</h2>
           <p className="text-xl md:text-xl mb-12">
             Completa el formulario y calcula de forma rápida el costo de tu

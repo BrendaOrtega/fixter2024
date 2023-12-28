@@ -27,7 +27,7 @@ export default function Home() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4 z-30" src="./logo.svg" />
+          <img className=" mt-4 z-30" src="./logo.svg" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />
@@ -42,6 +42,7 @@ export default function Home() {
             <span>El mejor aliado</span>{" "}
             <div className="relative group">
               <img
+                alt="people working"
                 className="imgExtend"
                 src="https://images.pexels.com/photos/3184424/pexels-photo-3184424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               />
@@ -60,6 +61,7 @@ export default function Home() {
             <span className="pl-5">software</span>
             <div className="relative group">
               <img
+                alt="women working"
                 className="imgExtend"
                 src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               />
@@ -79,6 +81,7 @@ export default function Home() {
             <span> éxito de tu </span>{" "}
             <div className="relative group">
               <img
+                alt="laptop"
                 className="imgExtend"
                 src="https://images.pexels.com/photos/4050290/pexels-photo-4050290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               />
@@ -199,19 +202,19 @@ export default function Home() {
 
             <p className="text-base md:text-2xl text-gray mt-16 flex items-start gap-3	">
               {" "}
-              <img className="pt-2" src="/check.svg" />
+              <img className="pt-2" src="/check.svg" alt="check" />
               ¿Tu sitio parece obsoleto y el diseño va en contra de su imagen en
               lugar de favorecerla?{" "}
             </p>
             <p className="text-base md:text-2xl text-gray flex items-start gap-3 mt-4">
               {" "}
-              <img className="pt-2" src="/check.svg" />
+              <img className="pt-2" src="/check.svg" alt="check" />
               ¿Tus apps web no tienen todas las funcionalidades que necesitas?{" "}
             </p>
 
             <p className="text-base md:text-2xl text-gray flex items-start gap-3 mt-4	">
               {" "}
-              <img className="pt-2" src="/check.svg" />
+              <img className="pt-2" src="/check.svg" alt="check" />
               ¿Mantener y administrar tu sitio web es frustrante porque requiere
               demasiado tiempo?{" "}
             </p>
@@ -225,6 +228,7 @@ export default function Home() {
             <img
               className="object-contain w-[100%]"
               src="/proyectos/mask1.png"
+              alt="women nervious"
             />
           </div>
         </div>
@@ -233,6 +237,7 @@ export default function Home() {
             <img
               className="object-contain max-w-[90%] h-[450px] md:h-[540px]"
               src="/proyectos/mask2.png"
+              alt="people working together"
             />
           </div>
           <div className="text-[#333333] w-full md:w-[50%]">
@@ -304,6 +309,7 @@ const ProductCard = ({ title, description, image }: CardProps) => {
       </div>
       <div className="w-full h-[200px] overflow-hidden  mt-0">
         <img
+          alt="proyect example"
           className="  mt-10"
           src={image ? image : "https://i.imgur.com/cC0VWx1.png"}
         />

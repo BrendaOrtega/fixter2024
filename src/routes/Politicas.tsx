@@ -17,7 +17,7 @@ export default function Politicas() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4 z-30" src="./logo.svg" />
+          <img className=" mt-4 z-30" src="./logo.svg" alt="logo" />
         </Link>
       </div>
       <div className="max-w-7xl w-[90%] md:w-full mx-auto py-[120px]">
