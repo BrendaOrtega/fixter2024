@@ -18,7 +18,7 @@ export default function Contact() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4  " src="./logo.svg" />
+          <img className=" mt-4 w-[136px]  " src="./logo.png" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />
@@ -67,7 +67,7 @@ export default function Contact() {
               </div>
             </a>
           </div>
-          <div className="w-[300px] flex justify-start  mt-48 md:mt-80">
+          <div className="w-[300px] flex justify-start  mt-20 md:mt-80">
             <div className="flex gap-6">
               <a
                 href="https://www.facebook.com/profile.php?id=100063503085832"

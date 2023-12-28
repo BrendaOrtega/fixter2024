@@ -19,7 +19,7 @@ export default function Projects() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4  " src="./logo.png" alt="logo" />
+          <img className=" mt-4 w-[136px]  " src="./logo.png" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />
@@ -115,11 +115,11 @@ export const FullCard = ({ title, description, image, tag }: CardProps) => {
       style={{ transition: "all .5s ease" }}
       className="w-full md:w-[540px] mt-0 md:mt-28 group cursor-pointer"
     >
-      <div className="h-[480px] md:h-[740px] w-full overflow-hidden border-[1px] border-[#ECEFF9]">
+      <div className="min-h-[480px] max-h-[480px] md:min-h-[740px] w-full overflow-hidden border-[1px] border-[#ECEFF9]">
         <img
           alt="proyect example"
           style={{ transition: "all .5s ease" }}
-          className="h-[480px] md:h-[740px] object-cover group-hover:scale-125"
+          className="h-auto md:h-[740px] object-cover group-hover:scale-125"
           src={image ? image : "https://i.imgur.com/cC0VWx1.png"}
         />
       </div>

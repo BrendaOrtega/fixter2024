@@ -19,7 +19,7 @@ export default function Clients() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4  " src="./logo.svg" alt="logo fixterorg" />
+          <img className=" mt-4 w-[136px]  " src="./logo.png" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />

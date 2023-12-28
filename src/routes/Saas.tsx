@@ -19,7 +19,7 @@ export default function Projects() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4  " src="./logo.png" alt="logo" />
+          <img className=" mt-4 w-[136px]  " src="./logo.png" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />

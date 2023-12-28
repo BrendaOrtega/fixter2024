@@ -27,7 +27,7 @@ export default function Home() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4 z-30" src="./logo.png" alt="logo" />
+          <img className=" mt-4 w-[136px]  " src="./logo.png" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />
@@ -38,7 +38,7 @@ export default function Home() {
         }}
       >
         <div className="min-h-[90vh] flex items-center max-w-7xl mx-auto 	">
-          <h1 className="flex flex-wrap items-center text-3xl lg:text-7xl text-center justify-center ">
+          <h1 className="flex flex-wrap items-center text-3xl lg:text-7xl text-center justify-center  -mt-6 md:mt-0">
             <span>El mejor aliado</span>{" "}
             <div className="relative group">
               <img
