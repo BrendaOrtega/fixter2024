@@ -27,7 +27,7 @@ export default function Home() {
         className="flex justify-center fixed  w-full h-20 "
       >
         <Link to="/">
-          <img className=" mt-4 z-30" src="./logo.svg" alt="logo" />
+          <img className=" mt-4 z-30" src="./logo.png" alt="logo" />
         </Link>
       </div>
       <SmartNavBar />
