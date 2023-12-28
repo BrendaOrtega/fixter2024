@@ -62,11 +62,12 @@ export default function Projects() {
 
           <div className="mt-0 md:-mt-[280px]">
             <FullCard
-              title="Webdive"
-              description="Sitio web de empresa de servicios tecnológicos."
-              image="/proyectos/dive.png"
-              tag="WebApp · UX/UI · Development "
+              title="Last Play"
+              description="Diseño de app móvil para organización de eventos depostivos."
+              image="/proyectos/play.png"
+              tag="Mobile App · UX/UI"
             />
+
             {/* <FullCard
               title="Constructoken"
               description="Diseño de aplicación móvil para startup de construcción de vivienda."
@@ -88,12 +89,12 @@ export default function Projects() {
             image="/proyectos/panel.png"
             tag="WebApp · UX/UI · Development "
           />
-          {/* <FullCard
+          <FullCard
             title="Webdive"
             description="Sitio web de empresa de servicios tecnológicos."
             image="/proyectos/dive.png"
             tag="WebApp · UX/UI · Development "
-          /> */}
+          />
         </section>
       </section>
       <Footer />

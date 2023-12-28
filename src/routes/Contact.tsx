@@ -74,28 +74,32 @@ export default function Contact() {
                 target="_blank"
                 className="hover:opacity-50"
               >
-                <img className="w-6" src="./facebookdark.svg" />
+                <img className="w-6" src="./facebookdark.svg" alt="facebook" />
               </a>
               <a
                 href="https://twitter.com/FixterGeek"
                 target="_blank"
                 className="hover:opacity-50"
               >
-                <img className="w-6" src="./twitterdark.svg" />
+                <img className="w-6" src="./twitterdark.svg" alt="twitter" />
               </a>
               <a
                 href="https://www.linkedin.com/company/28980688/"
                 target="_blank"
                 className="hover:opacity-50"
               >
-                <img className="w-5" src="./linkedindark.svg" />
+                <img className="w-5" src="./linkedindark.svg" alt="linkedin" />
               </a>
               <a
                 href="https://www.instagram.com/fixtergeek/"
                 target="_blank"
                 className="hover:opacity-50"
               >
-                <img className="w-5" src="./instagramdark.svg" />
+                <img
+                  className="w-5"
+                  src="./instagramdark.svg"
+                  alt="instagram"
+                />
               </a>
               {/* <img className="w-5" src="./youtubedark.svg" /> */}
             </div>

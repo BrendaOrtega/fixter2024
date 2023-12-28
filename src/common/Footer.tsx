@@ -44,18 +44,18 @@ export default function Footer() {
               target="_blank"
               className="hover:opacity-50"
             >
-              <img className="w-5" src="./facebook.svg" />
+              <img className="w-5" src="./facebook.svg" alt="facebook" />
             </a>
             <a
               href="https://www.linkedin.com/company/28980688"
               target="_blank"
               className="hover:opacity-50"
             >
-              <img className="w-5" src="./linkedin.svg" />
+              <img className="w-5" src="./linkedin.svg" alt="linkedin" />
             </a>
 
-            <img className="w-5" src="./twitter.svg" />
-            <img className="w-5" src="./instagram.svg" />
+            <img className="w-5" src="./twitter.svg" alt="twitter" />
+            <img className="w-5" src="./instagram.svg" alt="instagram" />
             {/* <img className="w-5" src="./youtube.svg" /> */}
           </div>
         </div>
