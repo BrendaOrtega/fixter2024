@@ -9,7 +9,7 @@ export default function SmartNavBar() {
     setIsOpen((prevState) => !prevState);
   };
   return (
-    <div className="bg-dark rounded-[40px] text-white flex items-center h-16 md:h-20 w-[402px] md:w-[508px] px-2 md:px-4 fixed bottom-10 mx-auto ml-[calc(50%-201px)] md:ml-[calc(50%-254px)] z-20">
+    <div className="bg-dark rounded-[40px] text-white flex items-center h-16 md:h-20 w-[402px] md:w-[508px] px-2 md:px-4 fixed bottom-2 md:bottom-10 mx-auto ml-[calc(50%-201px)] md:ml-[calc(50%-254px)] z-20">
       <Link to="/servicios">
         <Tab>Servicios</Tab>
       </Link>
@@ -37,7 +37,7 @@ export default function SmartNavBar() {
         onClose={toggleDrawer}
         direction="bottom"
         className="bla bla bla"
-        size="90%"
+        size="94%"
       >
         <Form />
       </Drawer>

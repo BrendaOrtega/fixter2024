@@ -25,7 +25,7 @@ export default function Contact() {
       <section className="max-w-7xl w-[90%] md:w-full min-h-[115vh] mx-auto flex justify-between py-[80px] flex-wrap md:flex-nowrap ">
         <div className="pt-20">
           <h2 className="text-5xl md:text-7xl	mb-10">Hablemos.</h2>
-          <p className="font-light text-2xl w-full md:w-[60%]">
+          <p className="font-light text-xl md:text-2xl w-full md:w-[60%]">
             Nos encantaría saber más sobre ti y lo que podemos diseñar y
             construir juntos.
           </p>

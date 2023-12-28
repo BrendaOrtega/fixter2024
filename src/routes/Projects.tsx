@@ -32,7 +32,7 @@ export default function Projects() {
             Convirtiéndolas en productos digitales que tus usuarios amen.
           </p>
         </section>
-        <section className="flex justify-between py-20 md:py-[120px] flex-wrap missalign gap-10 md:gap-0">
+        <section className="flex justify-between py-20 md:py-[120px] flex-wrap missalign gap-12 md:gap-0">
           <SmallCard
             title="Potentiia"
             description="Rediseño del sitio web de empresa líder en couching para el rendimiento deportivo."

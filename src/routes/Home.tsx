@@ -147,7 +147,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="overflow-hidden	flex gap-10 w-full my-16 md:my-10  items-center">
+      <section className="overflow-hidden	flex gap-10 w-full my-2 md:my-10  items-center">
         <Marquee className="text-3xl md:text-6xl h-[64px]  md:h-[100px]">
           ReactJs • Vite • Remix • MongoDB • TailwindCSS • Firebase • NextJs •
           Kubernetes • Go • Ruby • JavaScript • Prisma • Typescript • Nodejs •
@@ -188,7 +188,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="bg-[#F8F8FC] py-32">
+      <section className="bg-[#F8F8FC] py-16 md:py-32">
         <div className="max-w-7xl mx-auto w-[90%] md:w-full  flex items-center flex-wrap md:flex-nowrap gap-16">
           <div className=" w-full md:w-[50%] pr-[4%]">
             <h2 className="text-3xl md:text-5xl	text-dark">

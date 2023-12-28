@@ -23,7 +23,7 @@ export default function Services() {
         </Link>
       </div>
       <SmartNavBar />
-      <section className="max-w-7xl mx-auto w-[90%] md:w-full pt-[200px] pb-[120px] ">
+      <section className="max-w-7xl mx-auto w-[90%] md:w-full pt-[120px] pb-[120px] ">
         <section className="w-[100%] md:w-[50%]">
           <h2 className="text-5xl lg:text-7xl mb-10">
             El mejor partner Full-stack.
@@ -161,7 +161,7 @@ export default function Services() {
               />
             </div>
             <div className="w-[400px] grow pl-0 md:pl-[10%] ">
-              <h2 className="text-5xl	font-semibold mb-6">
+              <h2 className="text-3xl md:text-5xl	font-semibold mb-6">
                 Aplicciones Móviles
               </h2>
               <p className="text-xl font-light	">
@@ -192,7 +192,9 @@ export default function Services() {
           </div>
           <div className="flex w-full items-center flex-wrap md:flex-nowrap">
             <div className="w-[400px] grow pr-0 md:pr-[10%]">
-              <h2 className="text-5xl	font-semibold mb-6">Capacitación</h2>
+              <h2 className="text-3xl md:text-5xl	font-semibold mb-6">
+                Capacitación
+              </h2>
               <p className="text-xl font-light	">
                 La enseñanza es algo que nos apasiona, así que de la mano de
                 nuestros desarrolladores creamos cursos personalizados adoc al

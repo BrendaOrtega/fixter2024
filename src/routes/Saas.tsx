@@ -79,7 +79,12 @@ export const VideoCard = ({
           src={image ? image : "https://i.imgur.com/cC0VWx1.png"}
         />{" "}
       </div>
-      <p className="text-2xl font-medium mt-4	">{title}</p>
+      <p
+        style={{ fontFamily: "Satoshi Bold" }}
+        className="text-2xl font-medium mt-4	"
+      >
+        {title}
+      </p>
       <p className="text-[#333333] mt-2">{description}</p>
       <p
         style={{ transition: "all .5s ease" }}
