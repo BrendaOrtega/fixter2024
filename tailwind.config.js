@@ -17,6 +17,8 @@ export default {
         mobile: "url('/back-mobile.png')",
         web: "url('/back.png')",
         general: "url(/back2.svg)",
+        projects: "url('/projects2.svg')",
+        saas: "url('/saas2.svg')",
       },
     },
   },

@@ -35,7 +35,7 @@ export default function Footer() {
             <p className="text-sm	text-[#858e97]">Aviso de Privacidad</p>
           </Link>
           {/* <p className="text-sm	text-[#858e97]">Términos</p> */}
-          <p className="text-sm	text-[#858e97]">© 2016 – 2023 Fixter.org</p>
+          <p className="text-sm	text-[#858e97]">© 2016 – 2024 Fixter.org</p>
         </div>
         <div className="w-[300px] flex justify-start">
           <div className="flex gap-6">

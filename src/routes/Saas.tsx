@@ -13,7 +13,7 @@ export default function Projects() {
     });
   }, []);
   return (
-    <main>
+    <main className="bg-saas bg-contain bg-right-top bg-no-repeat">
       <div
         // style={{ backdropFilter: "blur(8px)" }}
         className="flex justify-center fixed  w-full h-20 "

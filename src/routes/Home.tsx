@@ -58,7 +58,7 @@ export default function Home() {
               </div>
             </div>
             <span> para diseñar</span> <span> y desarrollar </span>
-            <span className="pl-5">software</span>
+            <span className="pl-5">el software</span>
             <div className="relative group">
               <img
                 alt="women working"
@@ -302,15 +302,15 @@ type CardProps = {
 
 const ProductCard = ({ title, description, image }: CardProps) => {
   return (
-    <div className="bg-[#F4F5FB] rounded-[40px] w-[360px] px-8 pt-8 grow flex flex-col  overflow-hidden">
+    <div className="bg-[#F4F5FB] rounded-[40px] w-[360px] px-8 pt-8 grow flex flex-col  overflow-hidden group">
       <div>
         <h3 className="text-xl lg:text-2xl	">{title}</h3>
         <p className="text-[#333333] mt-2">{description}</p>
       </div>
-      <div className="w-full h-[200px] overflow-hidden  mt-0">
+      <div className="w-full h-[200px]  mt-0">
         <img
           alt="proyect example"
-          className="  mt-10"
+          className="  mt-10 group-hover:scale-125 transition-all"
           src={image ? image : "https://i.imgur.com/cC0VWx1.png"}
         />
       </div>

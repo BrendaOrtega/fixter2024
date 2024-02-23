@@ -3,6 +3,7 @@ import "../App.css";
 import Footer from "../common/Footer";
 import SmartNavBar from "../common/SmartNavBar";
 import { useEffect } from "react";
+import ScrollAnimation from "react-scroll-animation";
 
 export default function Services() {
   useEffect(() => {
@@ -23,6 +24,7 @@ export default function Services() {
         </Link>
       </div>
       <SmartNavBar />
+
       <section className="max-w-7xl mx-auto w-[90%] md:w-full pt-[120px] pb-[120px] ">
         <section className="w-[100%] md:w-[50%]">
           <h2 className="text-5xl lg:text-7xl mb-10">
@@ -33,8 +35,9 @@ export default function Services() {
             experiencias digitales.
           </p>
         </section>
+
         <section className="flex justify-between py-[120px] flex-wrap gap-52">
-          <div className="flex w-full items-center flex-wrap md:flex-nowrap">
+          <div className="flex w-full items-center flex-wrap md:flex-nowrap group">
             <div className="w-[400px] grow pr-0 md:pr-[10%]">
               <h2 className="text-3xl md:text-5xl 	font-semibold mb-6">
                 Diseño de Producto
@@ -66,22 +69,27 @@ export default function Services() {
                 </li>
               </ul>
             </div>
-            <div className="w-[400px] grow flex justify-end md:mt-0 mt-10 ">
-              <img
-                alt="product design example"
-                className="object-cover w-full  md:w-[80%] h-[600px] "
-                src="/design.png"
-              />
+            <div className="w-[400px] grow flex justify-end md:mt-0 mt-10  ">
+              <div className=" md:w-[80%] h-[600px]  mx-autow-full  bg-[#F4EBDE]">
+                <img
+                  alt="product design example"
+                  className="object-cover w-full  h-[600px] group-hover:rotate-6	 transition-all cursor-pointer"
+                  src="/design.png"
+                />
+              </div>
             </div>
           </div>
-          <div className="flex w-full items-center flex-wrap-reverse md:flex-nowrap">
-            <div className="w-[400px] grow flex justify-start  md:mt-0 mt-10">
-              <img
-                alt="development example"
-                className="object-cover w-full md:w-[80%] h-[600px]"
-                src="/dev.png"
-              />
+          <div className="flex w-full items-center flex-wrap-reverse md:flex-nowrap group">
+            <div className="w-[400px] grow flex justify-start  md:mt-0 mt-10 ">
+              <div className=" md:w-[80%] h-[600px]  mx-autow-full  bg-[#D6D9D0]">
+                <img
+                  alt="development example"
+                  className="object-cover w-full  h-[600px] group-hover:rotate-6	 transition-all cursor-pointer"
+                  src="/dev.png"
+                />
+              </div>
             </div>
+
             <div className="w-[400px] grow pl-0 md:pl-[10%] ">
               <h2 className="text-3xl md:text-5xl 	font-semibold mb-6">
                 Desarrollo de Software a la medida
@@ -116,7 +124,7 @@ export default function Services() {
               </ul>
             </div>
           </div>
-          <div className="flex w-full items-center flex-wrap md:flex-nowrap">
+          <div className="flex w-full items-center flex-wrap md:flex-nowrap group">
             <div className="w-[400px] grow pr-0 md:pr-[10%]">
               <h2 className="text-3xl md:text-5xl 	font-semibold mb-6">
                 Sitios web
@@ -144,21 +152,25 @@ export default function Services() {
                 </li>
               </ul>
             </div>
-            <div className="w-[400px] grow flex justify-end md:mt-0 mt-10">
-              <img
-                alt="website example"
-                className="object-cover w-full md:w-[80%] h-[600px] "
-                src="/sitio.png"
-              />
+            <div className="w-[400px] grow flex justify-end md:mt-0 mt-10 ">
+              <div className=" md:w-[80%] h-[600px]  mx-autow-full  bg-[#F1F1FF]">
+                <img
+                  alt="website example"
+                  className="object-cover w-full  h-[600px] group-hover:rotate-6	 transition-all cursor-pointer"
+                  src="/sitio.png"
+                />
+              </div>
             </div>
           </div>
-          <div className="flex w-full items-center flex-wrap-reverse md:flex-nowrap">
+          <div className="flex w-full items-center flex-wrap-reverse md:flex-nowrap group">
             <div className="w-[400px] grow flex justify-start md:mt-0 mt-10">
-              <img
-                className="object-cover w-full md:w-[80%] h-[600px]"
-                src="/mobile.png"
-                alt="mobile app example"
-              />
+              <div className=" md:w-[80%] h-[600px]  mx-autow-full  bg-[#FAE7D5]">
+                <img
+                  className="object-cover w-full  h-[600px] group-hover:rotate-6	 transition-all cursor-pointer"
+                  src="/mobile.png"
+                  alt="mobile app example"
+                />
+              </div>
             </div>
             <div className="w-[400px] grow pl-0 md:pl-[10%] ">
               <h2 className="text-3xl md:text-5xl	font-semibold mb-6">
@@ -190,7 +202,7 @@ export default function Services() {
               </ul>
             </div>
           </div>
-          <div className="flex w-full items-center flex-wrap md:flex-nowrap">
+          <div className="flex w-full items-center flex-wrap md:flex-nowrap group">
             <div className="w-[400px] grow pr-0 md:pr-[10%]">
               <h2 className="text-3xl md:text-5xl	font-semibold mb-6">
                 Capacitación
@@ -221,11 +233,13 @@ export default function Services() {
               </ul>
             </div>
             <div className="w-[400px] grow flex justify-end md:mt-0 mt-10 ">
-              <img
-                className="object-cover w-full  md:w-[80%] h-[600px] "
-                src="/capa.png"
-                alt="training example"
-              />
+              <div className=" md:w-[80%] h-[600px]  mx-autow-full  bg-[#D9E5E5]">
+                <img
+                  className="object-cover w-full  h-[600px] group-hover:rotate-6	 transition-all cursor-pointer"
+                  src="/capa.png"
+                  alt="training example"
+                />
+              </div>
             </div>
           </div>
         </section>
