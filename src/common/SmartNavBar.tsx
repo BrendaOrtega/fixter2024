@@ -1,14 +1,8 @@
-import { ReactNode, useState } from "react";
+import { ReactNode } from "react";
 import { Link } from "react-router-dom";
-// import Drawer from "react-modern-drawer";
-// import "react-modern-drawer/dist/index.css";
 import { Drawer } from "vaul";
 
 export default function SmartNavBar() {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleDrawer = () => {
-    setIsOpen((prevState) => !prevState);
-  };
   return (
     <div className="bg-dark rounded-[40px] text-white flex items-center h-16 md:h-20 w-[402px] md:w-[508px] px-2 md:px-4 fixed bottom-2 md:bottom-10 mx-auto ml-[calc(50%-201px)] md:ml-[calc(50%-254px)] z-20">
       <Link to="/servicios">
@@ -25,23 +19,6 @@ export default function SmartNavBar() {
       <Link to="/contacto">
         <Tab>Contacto</Tab>
       </Link>
-
-      {/* <button
-        onClick={toggleDrawer}
-        className="bg-brand-300 h-12 rounded-full px-4 text-white  "
-      >
-        Escríbenos
-      </button>
-
-      <Drawer
-        open={isOpen}
-        onClose={toggleDrawer}
-        direction="bottom"
-        className="bla bla bla"
-        size="94%"
-      >
-        <Form />
-      </Drawer> */}
 
       <Drawer.Root>
         <Drawer.Trigger>

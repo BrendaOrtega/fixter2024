@@ -3,7 +3,6 @@ import "../App.css";
 import Footer from "../common/Footer";
 import SmartNavBar from "../common/SmartNavBar";
 import { useEffect } from "react";
-import ScrollAnimation from "react-scroll-animation";
 
 export default function Services() {
   useEffect(() => {

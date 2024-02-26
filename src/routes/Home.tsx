@@ -166,7 +166,11 @@ export default function Home() {
             image="/proyectos/proyecto2.png"
             link="https://www.formmy.app/"
           />
-          <ProyectCard name="Constructoken" image="/proyectos/proyecto1.png" />
+          <ProyectCard
+            link="https://constructoken.com/"
+            name="Constructoken"
+            image="/proyectos/proyecto1.png"
+          />
           <ProyectCard
             link="https://autonomo-7e183.web.app/"
             name="Arango"
